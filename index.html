@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="container">
+
+        <form action="">
+
+            <div class="row">
+
+                <div class="col">
+
+                    <h3 class="title">billing address</h3>
+
+                    <div class="inputBox">
+                        <span>full name :</span>
+                        <input type="text" placeholder="Enter your full name">
+                    </div>
+                    <div class="inputBox">
+                        <span>email :</span>
+                        <input type="email" placeholder="Enter email address">
+                    </div>
+                    <div class="inputBox">
+                        <span>address :</span>
+                        <input type="text" placeholder="Enter address">
+                    </div>
+                    <div class="inputBox">
+                        <span>city :</span>
+                        <input type="text" placeholder="Enter city">
+                    </div>
+
+                    <div class="flex">
+                        <div class="inputBox">
+                            <span>state :</span>
+                            <input type="text" placeholder="Enter state">
+                        </div>
+                        <div class="inputBox">
+                            <span>zip code :</span>
+                            <input type="number" placeholder="123 456">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col">
+
+                    <h3 class="title">Payment</h3>
+
+                    <div class="inputBox">
+                        <span>Cards accepted :</span>
+                        <img src="images/card_img.png" alt="">
+                    </div>
+                    <div class="inputBox">
+                        <span>Name on card :</span>
+                        <input type="text" placeholder="Enter card name">
+                    </div>
+                    <div class="inputBox">
+                        <span>Credit card number :</span>
+                        <input type="text" class="cNum" placeholder="1111-2222-3333-4444" maxlength="19">
+                    </div>
+                    <div class="inputBox">
+                        <span>Exp Month :</span>
+                        <select name="" id="">
+                            <option value="">Choose month</option>
+                            <option value="">January</option>
+                            <option value="">February</option>
+                            <option value="">March</option>
+                            <option value="">April</option>
+                            <option value="">May</option>
+                            <option value="">June</option>
+                            <option value="">July</option>
+                            <option value="">August</option>
+                            <option value="">September</option>
+                            <option value="">October</option>
+                            <option value="">November</option>
+                            <option value="">December</option>
+                        </select>
+                        <!-- <input type="text" placeholder="Enter month"> -->
+                    </div>
+
+                    <div class="flex">
+                        <div class="inputBox">
+                            <span>Exp Year :</span>
+                            <select name="" id="">
+                                <option value="">Choose year</option>
+                                <option value="2022">2022</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                                <option value="2025">2025</option>
+                                <option value="2026">2026</option>
+                                <option value="2027">2027</option>
+                            </select>
+                        </div>
+                        <div class="inputBox">
+                            <span>CVV :</span>
+                            <input type="number" placeholder="1234">
+                        </div>
+                    </div>
+
+                </div>
+        
+            </div>
+
+            <input type="submit" value="proceed to checkout" class="submit-btn">
+
+        </form>
+
+    </div>    
+    
+    <script src="app.js"></script>
+</body>
+</html>
